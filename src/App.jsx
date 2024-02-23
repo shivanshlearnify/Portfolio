@@ -2,7 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './components/Header'
+import Header from './components/header/Header'
+import Herosection from './components/herosection/Herosection'
+import SkillsSection from './components/skillsSection/SkillsSection'
+import Projects from './components/projects/Projects'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +13,9 @@ function App() {
   return (
     <>
       <Header/>
+      <Herosection/>
+      <SkillsSection/>
+      <Projects/>
     </>
   )
 }
