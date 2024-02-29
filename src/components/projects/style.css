@@ -1,5 +1,5 @@
 .project {
-  background-color: rgb(25, 25, 36);
+  background-color: rgb(30, 30, 58);
   display: flex;
   justify-content: center;
 }
@@ -12,5 +12,67 @@
   width: 100%;
   padding: 15px 0 40px 0;
 }
-.ProjectDes{
+.ProjectTitle {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.ProjectDes {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.644);
+}
+.projectGrid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.projectBox {
+  width: 290px;
+  cursor: pointer;
+  background-color: #171721;
+  padding: 26px 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.projectBox:hover {
+  transform: translateY(-5px);
+}
+.projectBox img {
+  width: 290px;
+  height: 210px;
+  border-radius: 4px;
+}
+.projecttagsgrid {
+  display: flex;
+  gap: 10px;
+}
+
+.projecttag {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(133, 76, 230);
+  background-color: rgba(133, 76, 230, 0.082);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.projectDes {
+  font-weight: 400;
+  color: rgba(177, 178, 179, 0.6);
+  overflow: hidden;
+  margin-top: 8px;
+  max-width: 100%;
+  text-overflow: ellipsis;
+}
+@media (max-width: 770px) {
+  .ProjectTitle {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .ProjectDes {
+    font-size: 18px;
+    text-align: center;
+  }
 }

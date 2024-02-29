@@ -12,19 +12,27 @@
   width: 100%;
   padding: 15px 0 40px 0;
 }
+.SkillsSectionTitle {
+  font-size: 60px;
+  font-weight: 500;
+}
+.SkillsSectionDesc {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.644);
+}
 .skillscontainer {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    gap: 30px;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 30px;
+  justify-content: center;
 }
 .skillHead {
   max-width: 450px;
   width: 100%;
-  background-color: rgb(25, 25, 36);
-  border: 0.1px solid #854ce6;
+  background-color: rgb(46, 46, 54);
+  border: 0.1px solid rgba(255, 255, 255, 0.288);
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 20px 40px 35px 40px;
@@ -32,15 +40,15 @@
   flex-direction: column;
   align-items: center;
 }
-.skillTitle{
+.skillTitle {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 10px;
-  color: rgb(177, 178, 179);;
+  color: rgb(177, 178, 179);
 }
 .skillList {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   gap: 5px;
 }
 .skill {
@@ -53,4 +61,20 @@
 .skill img {
   width: 24px;
   height: 24px;
+}
+@media (max-width: 770px) {
+  .SkillsSectionTitle {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .SkillsSectionDesc {
+    font-size: 18px;
+    text-align: center;
+  }
+  .skillscontainer{
+width: 90%;
+  }
+  .skillHead{
+    width: 90%;
+  }
 }

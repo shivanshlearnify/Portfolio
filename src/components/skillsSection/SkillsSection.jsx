@@ -4,7 +4,7 @@ import { skills } from "../../data/constant";
 
 const SkillsSection = () => {
   return (
-    <div className="SkillsSection">
+    <div id="Skills" className="SkillsSection">
       <div className="SkillsSectionContainer">
         <div className="SkillsSectionTitle">Skills</div>
         <div className="SkillsSectionDesc">
