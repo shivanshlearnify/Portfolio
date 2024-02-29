@@ -7,7 +7,7 @@ Welcome to my portfolio website! This website showcases my projects, skills, and
 
 ## Live Website
 
-You can access my portfolio website live at [https://www.shivanshkesarwani.com](https://www.shivanshkesarwani.com)
+You can access my portfolio website live at [https://shivansh-portfolio96.netlify.app/)
 
 ## Description
 
