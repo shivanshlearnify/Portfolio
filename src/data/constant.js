@@ -101,18 +101,18 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: "Abdc",
-    date: "jan 2024 - feb 2024",
+    title: "Weather Website",
+    date: "31 DEC 2023 - 3 Jan 2024",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, hic officiis. Aliquid omnis, blanditiis facere optio iste et, porro perspiciatis est, totam odio dolores voluptatem?",
+      "Experience real-time weather updates effortlessly with our React JS weather website. Seamlessly crafted using React JS and powered by a reliable weather API, stay informed about current weather conditions with just a few clicks.",
     image:
-      "https://images.unsplash.com/photo-1682687981630-cefe9cd73072?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    tags: ["React js", "Redux"],
+      "https://github.com/shivanshlearnify/Weather-app-v2/assets/128142418/46adba46-599a-41b8-a4d5-5a0daf77725d",
+    tags: ["React js", "Redux", "Weather API"],
     category: "web app",
     github:
-      "https://github.com/shivanshlearnify/5.Expense_Calculator?tab=readme-ov-file",
+      "https://github.com/shivanshlearnify/Weather-app-v2",
     webapp:
-      "https://github.com/shivanshlearnify/5.Expense_Calculator?tab=readme-ov-file",
+      "https://weather-app-v2-nine.vercel.app/",
   },
   {
     id: 1,

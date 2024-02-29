@@ -9,8 +9,7 @@ const EducationSection = () => {
       <div className="EducationSectionContainer">
         <div className="EducationSectionTitle">Education</div>
         <div className="EducationSectionDesc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo est,
-          earum sunt ex ipsam delectus.
+        My education has been a journey of self-discovery and growth. My educational details are as follows.
         </div>
         <div className="educationBoxGrid">
           <div className="educationBox">

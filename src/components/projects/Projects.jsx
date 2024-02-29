@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="projectContainer">
         <div className="ProjectTitle">Projects</div>
         <div className="ProjectDes">
-          I have experience working on a diverse array of projects. Below are{" "}
+          I have experience working on a diverse array of projects. Below are
           <br /> a few examples of my past endeavors.
         </div>
         <div className="projectGrid">
@@ -24,6 +24,10 @@ const Projects = () => {
                 <div className="projectTitle">{project.title}</div>
                 <div className="projectDate">{project.date}</div>
                 <div className="projectDes">{project.description}</div>
+                <div className="projectBtn">
+                  <a href={project.github} target="_blank">View Code</a>
+                  <a href={project.webapp} target="_blank">View Live App</a>
+                </div>
               </div>
             </>
           ))}

@@ -34,6 +34,9 @@
   background-color: #171721;
   padding: 26px 20px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   transition: transform 0.3s ease;
 }
 .projectBox:hover {
@@ -65,6 +68,18 @@
   margin-top: 8px;
   max-width: 100%;
   text-overflow: ellipsis;
+}
+.projectBtn{
+  display: flex;
+  gap: 5px;
+}
+.projectBtn a {
+  text-decoration: none;
+  background-color: rgb(133, 76, 230);
+  border-radius: 5px;
+  padding: 5px 8px;
+  color: white;
+  margin-top: 15px;
 }
 @media (max-width: 770px) {
   .ProjectTitle {
