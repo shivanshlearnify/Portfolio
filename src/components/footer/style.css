@@ -20,6 +20,8 @@
 .footerList ul {
   display: flex;
   gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .footerList ul a {
   display: flex;
