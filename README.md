@@ -30,12 +30,6 @@ This portfolio website is designed and developed using ReactJS. It serves as a c
 - JavaScript
 - Bootstrap (optional)
 
-## Installation
-
-1. Clone the repository: `git clone https://github.com/your-username/your-portfolio.git`
-2. Navigate to the project directory: `cd your-portfolio`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
 
 ## Contact
 
