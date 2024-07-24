@@ -84,7 +84,7 @@ export const projects = [
     title: "Weather Website",
     date: "31 DEC 2023 - 3 Jan 2024",
     description:
-      "Experience real-time weather updates effortlessly with our React JS weather website. Seamlessly crafted using React JS and powered by a reliable weather API, stay informed about current weather conditions with just a few clicks.",
+      "Experience real-time weather updates effortlessly with our React JS weather website. Seamlessly crafted using React JS and powered by a reliable weather API, stay informed about current weather",
     image:
       "https://github.com/shivanshlearnify/Weather-app-v2/assets/128142418/46adba46-599a-41b8-a4d5-5a0daf77725d",
     tags: ["React js", "Redux", "Weather API"],
@@ -94,27 +94,12 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Abdc",
-    date: "jan 2024 - feb 2024",
+    title: "Car rental",
+    date: "2 March 2024 - 20 March 2024",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, hic officiis. Aliquid omnis, blanditiis facere optio iste et, porro perspiciatis est, totam odio dolores voluptatem?",
+      "Welcome to the Car Rental website project! This is a responsive web application built using React.js and Tailwind CSS. It allows users to rent cars conveniently and efficiently.",
     image:
-      "https://images.unsplash.com/photo-1682687981630-cefe9cd73072?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    tags: ["React js", "Redux"],
-    category: "web app",
-    github:
-      "https://github.com/shivanshlearnify/5.Expense_Calculator?tab=readme-ov-file",
-    webapp:
-      "https://github.com/shivanshlearnify/5.Expense_Calculator?tab=readme-ov-file",
-  },
-  {
-    id: 1,
-    title: "Abdc",
-    date: "jan 2024 - feb 2024",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, hic officiis. Aliquid omnis, blanditiis facere optio iste et, porro perspiciatis est, totam odio dolores voluptatem?",
-    image:
-      "https://images.unsplash.com/photo-1682687981630-cefe9cd73072?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://private-user-images.githubusercontent.com/128142418/313069032-2fc38b75-806f-4b85-af5d-d090cffede9a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE4Mjk1NzcsIm5iZiI6MTcyMTgyOTI3NywicGF0aCI6Ii8xMjgxNDI0MTgvMzEzMDY5MDMyLTJmYzM4Yjc1LTgwNmYtNGI4NS1hZjVkLWQwOTBjZmZlZGU5YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcyNFQxMzU0MzdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ZGMyMWRhMjQ4YTA5OTE3MzJiZGMwMzVkOTM0NGQ4YmVhM2M4YWQ5N2JkNGI1YzlmZGRmNDg4OWUzYjk0M2JkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.wCjsliEuVJxizs4QVq43KFGLKSSIV_NfB7wVsjirhQY",
     tags: ["React js", "Redux"],
     category: "web app",
     github:

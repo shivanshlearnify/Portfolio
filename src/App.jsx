@@ -1,27 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Header from './components/header/Header'
-import Herosection from './components/herosection/Herosection'
-import SkillsSection from './components/skillsSection/SkillsSection'
-import Projects from './components/projects/Projects'
-import EducationSection from './components/educationSection/EducationSection'
-import Footer from './components/footer/Footer'
+import "./App.css";
+import Header from "./components/header/Header";
+import Herosection from "./components/herosection/Herosection";
+import SkillsSection from "./components/skillsSection/SkillsSection";
+import Projects from "./components/projects/Projects";
+import EducationSection from "./components/educationSection/EducationSection";
+import Footer from "./components/footer/Footer";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <Header/>
-      <Herosection/>
-      <SkillsSection/>
-      <Projects/>
-      <EducationSection/>
-      <Footer/>
+      <Header />
+      <Herosection />
+      <SkillsSection />
+      <Projects />
+      <EducationSection />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
