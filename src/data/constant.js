@@ -86,10 +86,10 @@ export const projects = [
     title: "Weather Website",
     date: "31 DEC 2023 - 3 Jan 2024",
     description:
-      "Experience real-time weather updates effortlessly with our React JS weather website. Seamlessly crafted using React JS and powered by a reliable weather API, stay informed about current weather",
+      "Experience real-time weather updates effortlessly with our React JS weather website. Seamlessly crafted using React JS and powered by a reliable weather API",
     image:
       "https://github.com/shivanshlearnify/Weather-app-v2/assets/128142418/46adba46-599a-41b8-a4d5-5a0daf77725d",
-    tags: ["React js", "Redux", "Weather API"],
+    tags: ["React js", "Weather API"],
     category: "web app",
     github: "https://github.com/shivanshlearnify/Weather-app-v2",
     webapp: "https://weather-app-v2-nine.vercel.app/",
@@ -102,12 +102,12 @@ export const projects = [
       "Welcome to the Car Rental website project! This is a responsive web application built using React.js and Tailwind CSS. It allows users to rent cars conveniently and efficiently.",
     image:
       carrental,
-    tags: ["React js", "Redux"],
+    tags: ["React js", "TailwindCSS"],
     category: "web app",
     github:
-      "https://github.com/shivanshlearnify/5.Expense_Calculator?tab=readme-ov-file",
+      "https://github.com/shivanshlearnify/carRental",
     webapp:
-      "https://github.com/shivanshlearnify/5.Expense_Calculator?tab=readme-ov-file",
+      "https://carreantal.netlify.app/",
   },
 ];
 export const education = [
