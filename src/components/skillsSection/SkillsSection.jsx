@@ -11,12 +11,12 @@ const SkillsSection = () => {
           Here are some of my skills on which I have been working on
         </div>
         <div className="skillscontainer">
-          {skills.map((skill) => (
-            <div className="skillHead">
+          {skills.map((skill,index) => (
+            <div className="skillHead" key={index}>
               <div className="skillTitle">{skill.title}</div>
               <div className="skillList">
-                {skill.skills.map((item) => (
-                  <div className="skill">
+                {skill.skills.map((item,index) => (
+                  <div className="skill" key={index}>
                     <img src={item.image} alt={item.name} />
                     <span>{item.name}</span>
                   </div>

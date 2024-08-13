@@ -12,21 +12,21 @@ const Projects = () => {
           <br /> a few examples of my past endeavors.
         </div>
         <div className="projectGrid">
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <>
-              <div className="projectBox">
+              <div className="projectBox" key={index}>
                 <img src={project.image} alt="" />
                 <div className="projecttagsgrid">
-                  {project.tags.map((tags) => (
-                    <div className="projecttag">{tags}</div>
+                  {project.tags.map((tags,index) => (
+                    <div className="projecttag" key={index}>{tags}</div>
                   ))}
                 </div>
                 <div className="projectTitle">{project.title}</div>
                 <div className="projectDate">{project.date}</div>
-                <div className="projectDes">{project.description}</div>
+                <div className="projectDes">{project.description.slice(0,150)}.....</div>
                 <div className="projectBtn">
-                  <a href={project.github} target="_blank">View Code</a>
                   <a href={project.webapp} target="_blank">View Live App</a>
+                  <a href={project.github} target="_blank">View Code</a>
                 </div>
               </div>
             </>

@@ -13,9 +13,9 @@ const EducationSection = () => {
         </div>
         <div className="educationBoxGrid">
           <div className="educationBox">
-            {education.map((data) => (
+            {education.map((data ,index) => (
               <>
-                <div className="dataHead">
+                <div className="dataHead" key={index}>
                   <img src={data.img} alt="" />
                   <div className="dataHead2">
                     <span>{data.school}</span>

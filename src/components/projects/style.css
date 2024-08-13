@@ -38,6 +38,7 @@
   flex-direction: column;
   justify-content: space-between;
   transition: transform 0.3s ease;
+  gap: 4px;
 }
 .projectBox:hover {
   transform: translateY(-5px);
@@ -80,6 +81,10 @@
   padding: 5px 8px;
   color: white;
   margin-top: 15px;
+}
+.resume{
+  text-decoration: none;
+  color: white;
 }
 @media (max-width: 770px) {
   .ProjectTitle {
