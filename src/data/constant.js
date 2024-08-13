@@ -88,34 +88,6 @@ export const skills = [
 
 export const projects = [
   {
-    id: 1,
-    title: "Weather Website",
-    date: "",
-    description:
-      "Experience real-time weather updates effortlessly with our React JS weather website. Seamlessly crafted using React JS and powered by a reliable weather API",
-    image:
-      "https://github.com/shivanshlearnify/Weather-app-v2/assets/128142418/46adba46-599a-41b8-a4d5-5a0daf77725d",
-    tags: ["React js", "Weather API"],
-    category: "web app",
-    github: "https://github.com/shivanshlearnify/Weather-app-v2",
-    webapp: "https://weather-app-v2-nine.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "urbandrive",
-    date: "",
-    description:
-      " 'urbandrive' simplifies your transportation needs with a diverse fleet of vehicles available for short-term hire. Our intuitive online platform allows quick reservations, flexible pick-up/drop-off options, and transparent pricing. Enjoy convenience and reliability with 'Car Rental' for your next journey.",
-    image:
-      "https://github.com/shivanshlearnify/carRental/raw/main/image.png",
-    tags: ["React js", "Tailwind css","Netifly"],
-    category: "web app",
-    github:
-      "https://github.com/shivanshlearnify/carRental",
-    webapp:
-      "https://urbandrive.netlify.app/",
-  },
-  {
     id: 3,
     title: "FreshCart",
     date: "",
@@ -129,6 +101,34 @@ export const projects = [
       "https://github.com/shivanshlearnify/Freshcart",
     webapp:
       "https://freshcartvgu.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "Urban Drive",
+    date: "",
+    description:
+    " 'urbandrive' simplifies your transportation needs with a diverse fleet of vehicles available for short-term hire. Our intuitive online platform allows quick reservations, flexible pick-up/drop-off options, and transparent pricing. Enjoy convenience and reliability with 'Car Rental' for your next journey.",
+    image:
+    "https://github.com/shivanshlearnify/carRental/raw/main/image.png",
+    tags: ["React js", "Tailwind css","Netifly"],
+    category: "web app",
+    github:
+    "https://github.com/shivanshlearnify/carRental",
+    webapp:
+    "https://urbandrive.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "Weather Website",
+    date: "",
+    description:
+      "Experience real-time weather updates effortlessly with our React JS weather website. Seamlessly crafted using React JS and powered by a reliable weather API",
+    image:
+      "https://github.com/shivanshlearnify/Weather-app-v2/assets/128142418/46adba46-599a-41b8-a4d5-5a0daf77725d",
+    tags: ["React js", "Weather API"],
+    category: "web app",
+    github: "https://github.com/shivanshlearnify/Weather-app-v2",
+    webapp: "https://weather-app-v2-nine.vercel.app/",
   },
   
 ];

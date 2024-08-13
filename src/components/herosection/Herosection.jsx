@@ -29,9 +29,7 @@ const Herosection = () => {
             outlook and a mindset geared towards growth, I am poised to bring
             significant value and accomplish remarkable feats in my field.
           </div>
-          <button>
-            <a className="resume" href="http://ktctmizhiv24.lnkiy.in/shivanshResume" target="_blank">Check Resume</a>
-          </button>
+          {/* <button></button> */}
         </div>
         <div className="herosectionRight">
           <img src={profile} alt="profile" />

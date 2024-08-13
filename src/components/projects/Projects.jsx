@@ -22,7 +22,7 @@ const Projects = () => {
                 </div>
                 <div className="projectTitle">{project.title}</div>
                 <div className="projectDate">{project.date}</div>
-                <div className="projectDes">{project.description.slice(0,150)}.....</div>
+                <div className="projectDes">{project.description.slice(0,200)}.....</div>
                 <div className="projectBtn">
                   <a href={project.webapp} target="_blank">View Live App</a>
                   <a href={project.github} target="_blank">View Code</a>
