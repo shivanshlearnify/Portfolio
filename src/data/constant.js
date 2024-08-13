@@ -1,3 +1,5 @@
+import carrental from "../assets/carrental.png"
+
 export const skills = [
   {
     title: "Frontend",
@@ -89,10 +91,10 @@ export const projects = [
     title: "Weather Website",
     date: "",
     description:
-      "Experience real-time weather updates effortlessly with our React JS weather website. Seamlessly crafted using React JS and powered by a reliable weather API, stay informed about current weather conditions with just a few clicks.",
+      "Experience real-time weather updates effortlessly with our React JS weather website. Seamlessly crafted using React JS and powered by a reliable weather API",
     image:
       "https://github.com/shivanshlearnify/Weather-app-v2/assets/128142418/46adba46-599a-41b8-a4d5-5a0daf77725d",
-    tags: ["React js", "Redux", "Weather API"],
+    tags: ["React js", "Weather API"],
     category: "web app",
     github: "https://github.com/shivanshlearnify/Weather-app-v2",
     webapp: "https://weather-app-v2-nine.vercel.app/",

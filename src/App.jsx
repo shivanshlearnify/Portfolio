@@ -10,14 +10,14 @@ function App() {
 
   return (
     <>
-      <Header/>
-      <Herosection/>
-      <SkillsSection/>
-      <Projects/>
-      <EducationSection/>
-      <Footer/>
+      <Header />
+      <Herosection />
+      <SkillsSection />
+      <Projects />
+      <EducationSection />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
