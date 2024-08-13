@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 import { BiCopyright } from "react-icons/bi";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaTwitter, FaGithub } from "react-icons/fa6";

@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 import profile from "../../assets/profile.jpg";
 import Typewriter from "typewriter-effect";
 const Herosection = () => {

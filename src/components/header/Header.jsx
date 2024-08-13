@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./style.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {

@@ -1,4 +1,5 @@
 import carrental from "../assets/carrental.png"
+import freshCart from "../assets/freshcart.jpg"
 
 export const skills = [
   {
@@ -121,7 +122,7 @@ export const projects = [
     description:
       " Fresh Cart offers fresh, quality groceries online with a user-friendly interface, secure payments, and fast delivery, ensuring a convenient shopping experience every time.",
     image:
-      "https://private-user-images.githubusercontent.com/128142418/357343913-af1cd244-81ee-4986-9708-1fdba32a2aa3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM1NDM2MjAsIm5iZiI6MTcyMzU0MzMyMCwicGF0aCI6Ii8xMjgxNDI0MTgvMzU3MzQzOTEzLWFmMWNkMjQ0LTgxZWUtNDk4Ni05NzA4LTFmZGJhMzJhMmFhMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgxM1QxMDAyMDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01YzVlNDRkZGFjNDE0NmYwMWYwNzVhNzRhODBjNzcxZjYxNmQ5NjE5NTM3ZTczNDRlZWViODIxOWI2MTcyNTRjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Yv11lRENxzBiQGEeRf_Aczxis-UnUT6eWmCkFUysG-E",
+    freshCart,
     tags: ["React js","Redux", "Tailwind css","Netifly"],
     category: "web app",
     github:

@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 import { projects } from "../../data/constant";
 
 const Projects = () => {
