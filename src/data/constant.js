@@ -1,5 +1,6 @@
-import carrental from "../assets/carrental.png"
-import freshCart from "../assets/freshcart.jpg"
+import carrental from "../assets/carrental.png";
+import freshCart from "../assets/freshcart.jpg";
+import Employnext from "../assets/Employnext.png";
 
 export const skills = [
   {
@@ -93,29 +94,23 @@ export const projects = [
     date: "",
     description:
       " Fresh Cart offers fresh, quality groceries online with a user-friendly interface, secure payments, and fast delivery, ensuring a convenient shopping experience every time.",
-    image:
-    freshCart,
-    tags: ["React js","Redux", "Tailwind css","Netifly"],
+    image: freshCart,
+    tags: ["React js", "Redux", "Tailwind css", "Netifly"],
     category: "web app",
-    github:
-      "https://github.com/shivanshlearnify/Freshcart",
-    webapp:
-      "https://freshcartvgu.netlify.app/",
+    github: "https://github.com/shivanshlearnify/Freshcart",
+    webapp: "https://freshcartvgu.netlify.app/",
   },
   {
     id: 2,
     title: "Urban Drive",
     date: "",
     description:
-    " 'urbandrive' simplifies your transportation needs with a diverse fleet of vehicles available for short-term hire. Our intuitive online platform allows quick reservations, flexible pick-up/drop-off options, and transparent pricing. Enjoy convenience and reliability with 'Car Rental' for your next journey.",
-    image:
-    "https://github.com/shivanshlearnify/carRental/raw/main/image.png",
-    tags: ["React js", "Tailwind css","Netifly"],
+      " 'urbandrive' simplifies your transportation needs with a diverse fleet of vehicles available for short-term hire. Our intuitive online platform allows quick reservations, flexible pick-up/drop-off options, and transparent pricing. Enjoy convenience and reliability with 'Car Rental' for your next journey.",
+    image: "https://github.com/shivanshlearnify/carRental/raw/main/image.png",
+    tags: ["React js", "Tailwind css", "Netifly"],
     category: "web app",
-    github:
-    "https://github.com/shivanshlearnify/carRental",
-    webapp:
-    "https://urbandrive.netlify.app/",
+    github: "https://github.com/shivanshlearnify/carRental",
+    webapp: "https://urbandrive.netlify.app/",
   },
   {
     id: 1,
@@ -125,7 +120,7 @@ export const projects = [
       "Experience real-time weather updates effortlessly with our React JS weather website. Seamlessly crafted using React JS and powered by a reliable weather API",
     image:
       "https://github.com/shivanshlearnify/Weather-app-v2/assets/128142418/46adba46-599a-41b8-a4d5-5a0daf77725d",
-    tags: ["React js","Netifly"],
+    tags: ["React js", "Netifly"],
     category: "web app",
     github: "https://github.com/shivanshlearnify/Weather-app-v2",
     webapp: "https://weather-app-v2-nine.vercel.app/",
@@ -135,15 +130,14 @@ export const projects = [
     title: "EmployNext",
     date: "",
     description:
-    "Employnext: A seamless job portal connecting job seekers and employers for hassle-free hiring and career growth.",
+      "Employnext: A seamless job portal connecting job seekers and employers for hassle-free hiring and career growth.",
     image:
-    "https://private-user-images.githubusercontent.com/128142418/358841294-42106302-a982-44df-b375-4ad9bd2876a4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM4OTI3NTQsIm5iZiI6MTcyMzg5MjQ1NCwicGF0aCI6Ii8xMjgxNDI0MTgvMzU4ODQxMjk0LTQyMTA2MzAyLWE5ODItNDRkZi1iMzc1LTRhZDliZDI4NzZhNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgxN1QxMTAwNTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MGI4MWY5ZjY2OGEyYzEwYWE2MWU2OGQ3MzFkMzIwZjFjNTY4ZjFmOTNhMmNkZjExYTdmZjI0MDRlOGY0ZmMwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.botcEg6wjxTiInrrxXStOb184bT3apvKHl2xcG3R_YY",
-    tags: ["React js", "Tailwind css","Netifly"],
+    Employnext,
+    tags: ["React js", "Tailwind css", "Netifly"],
     category: "web app",
     github: "https://github.com/shivanshlearnify/EmployNext",
     webapp: "https://employnext.netlify.app/",
   },
-  
 ];
 export const education = [
   {
