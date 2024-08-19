@@ -253,16 +253,8 @@
   text-decoration: none;
   color: white;
 }
-.headerButton {
-  border-radius: 15px;
-  padding: 4px 10px;
-  background-color: rgb(139 139 139);
-  cursor: pointer;
-}
-.headerButton a {
-  text-decoration: none;
-  color: white;
-}
+
+
 .mobileheaderButton {
   border-radius: 15px;
   padding: 4px 10px;

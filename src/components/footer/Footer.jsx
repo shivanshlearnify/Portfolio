@@ -17,7 +17,7 @@ const Footer = () => {
             <a href="#Education">Education</a>
           </ul>
         </div>
-        <div className="footerSocialIcon">
+        <div className="footerSocialIcon flex justify-center">
           <a href="https://www.linkedin.com/in/shivansh-kesarwani/" target="_blank"> 
             <IoLogoLinkedin />
           </a>

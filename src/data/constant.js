@@ -1,6 +1,9 @@
-import carrental from "../assets/carrental.png";
 import freshCart from "../assets/freshcart.jpg";
 import Employnext from "../assets/Employnext.png";
+import EmployNextCanva from "../assets/EmployNextCanva.png";
+import freshCartCanva from "../assets/freshCartCanva.png";
+import UrbanDriveCanva from "../assets/UrbanDriveCanva.png";
+import weatherCanva from "../assets/weatherCanva.png";
 
 export const skills = [
   {
@@ -94,7 +97,7 @@ export const projects = [
     date: "",
     description:
       " Fresh Cart offers fresh, quality groceries online with a user-friendly interface, secure payments, and fast delivery, ensuring a convenient shopping experience every time.",
-    image: freshCart,
+    image: freshCartCanva,
     tags: ["React js", "Redux", "Tailwind css", "Netifly"],
     category: "web app",
     github: "https://github.com/shivanshlearnify/Freshcart",
@@ -106,7 +109,7 @@ export const projects = [
     date: "",
     description:
       " 'urbandrive' simplifies your transportation needs with a diverse fleet of vehicles available for short-term hire. Our intuitive online platform allows quick reservations, flexible pick-up/drop-off options, and transparent pricing. Enjoy convenience and reliability with 'Car Rental' for your next journey.",
-    image: "https://github.com/shivanshlearnify/carRental/raw/main/image.png",
+    image: UrbanDriveCanva,
     tags: ["React js", "Tailwind css", "Netifly"],
     category: "web app",
     github: "https://github.com/shivanshlearnify/carRental",
@@ -114,12 +117,11 @@ export const projects = [
   },
   {
     id: 1,
-    title: "EmployNext",
+    title: "Weather App",
     date: "",
     description:
       "Experience real-time weather updates effortlessly with our React JS weather website. Seamlessly crafted using React JS and powered by a reliable weather API",
-    image:
-      "https://github.com/shivanshlearnify/Weather-app-v2/assets/128142418/46adba46-599a-41b8-a4d5-5a0daf77725d",
+    image: weatherCanva,
     tags: ["React js", "Netifly"],
     category: "web app",
     github: "https://github.com/shivanshlearnify/Weather-app-v2",
@@ -131,8 +133,7 @@ export const projects = [
     date: "",
     description:
       "Employnext: A seamless job portal connecting job seekers and employers for hassle-free hiring and career growth.",
-    image:
-    Employnext,
+    image: EmployNextCanva,
     tags: ["React js", "Tailwind css", "Netifly"],
     category: "web app",
     github: "https://github.com/shivanshlearnify/EmployNext",

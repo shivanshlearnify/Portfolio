@@ -23,7 +23,7 @@ const Header = () => {
             <a href="#Education">Education</a>
           </ul>
         </div>
-        <div className="headerButton">
+        <div className="bg-white text-black px-2 py-2 rounded-3xl sm:hidden">
           <a href="https://github.com/shivanshlearnify" target="_blank">
             Github Profile
           </a>
@@ -48,7 +48,7 @@ const Header = () => {
             <a onClick={() => setIsOpen(!isOpen)} href="#Education">
               Education
             </a>
-            <div className="mobileheaderButton">
+            <div className="mt-4 border w-fit py-1 px-2 rounded-3xl">
               <a href="https://github.com/shivanshlearnify" target="_blank">
                 Github Profile
               </a>

@@ -5,7 +5,7 @@ const Herosection = () => {
   return (
     <div id="About" className="herosectionBanner">
       <div className="herosectionanimation"></div>
-      <div className="herosectionBannerContainer">
+      <div className="herosectionBannerContainer md:flex-col-reverse md:items-center md: gap-12">
         <div className="herosectionleft">
           <span className="title">
             Hi, I am <br /> Shivansh Kesarwani
