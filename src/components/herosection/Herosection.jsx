@@ -29,7 +29,7 @@ const Herosection = () => {
             outlook and a mindset geared towards growth, I am poised to bring
             significant value and accomplish remarkable feats in my field.
           </div>
-          {/* <button></button> */}
+          <a href="https://drive.google.com/file/d/1N_cRuPGVpNlnafGSnypE8ui6MvH1lsGd/view" target="_blank" className="bg-black text-white px-6 py-2 text-2xl rounded-3xl">Resume</a>
         </div>
         <div className="herosectionRight">
           <img src={profile} alt="profile" />
